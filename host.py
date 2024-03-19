@@ -41,12 +41,12 @@ while True:
                     password = decoded_line[1:-1]
             else:
                 if decoded_line == "Logout":
-                    from selenium_test import logout
+                    from selenium import logout
                     logout()
                     break
 
             if len(username) > 0 and len(password) > 0:
-                from selenium_test import login
+                from selenium import login
                 login(username, password)
                 username = ""
                 password = ""
