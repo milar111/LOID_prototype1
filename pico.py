@@ -25,7 +25,7 @@ IMAGE_FILE1 = "bee.bmp"
 IMAGE_FILE2 = "loading1.bmp"
 SPRITE_SIZE = (64, 64)
 FRAMES1 = 28
-FRAMES2 = 20
+FRAMES2 = 28
 
 def invert_colors(palette):
     palette[0], palette[1] = palette[1], palette[0]
