@@ -1,4 +1,4 @@
-from selenium import webdriver
+from fun_elenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
 
