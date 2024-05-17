@@ -9,8 +9,8 @@ import displayio
 import adafruit_displayio_ssd1306
 import adafruit_imageload
 
-email = "test@gmail.com"    #change the email to the one you want to login with. Keep in mind that if it is wrong the program will stop
-password = "test123456"     #change the password to the one you want to login with. Keep in mind that if it is wrong the program will stop
+email = "testacc201235@gmail.com"
+password = "testacc123456"
 
 email1 = f"({email})"
 password1 = f"({password})"
@@ -25,7 +25,7 @@ IMAGE_FILE1 = "bee.bmp"
 IMAGE_FILE2 = "loading1.bmp"
 SPRITE_SIZE = (64, 64)
 FRAMES1 = 28
-FRAMES2 = 28
+FRAMES2 = 20
 
 def invert_colors(palette):
     palette[0], palette[1] = palette[1], palette[0]
@@ -77,7 +77,7 @@ while True:
             group.append(icon_grid2)
         for i in range(FRAMES2):
             icon_grid2[0] = i
-            time.sleep(0.25) 
+            time.sleep(0.25)
         time.sleep(1)
         if icon_grid2 in group:
             group.remove(icon_grid2)
