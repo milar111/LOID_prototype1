@@ -51,3 +51,7 @@ Install the necessary libraries in the lib folder on the board:
 - Customize the display animations and user interface elements to suit your preferences.
 
 **Note:** The code is written in CircuitPython.
+
+## Images
+![PSLLD_image](https://github.com/user-attachments/assets/831c75c3-4529-45e7-9c22-13c570cc26de)
+
